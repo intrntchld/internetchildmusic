@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windows 98 Music Player</title>
+    <style>
+        body {
+            background-color: #008080;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            overflow: hidden;
+        }
+        
+        #player {
+            position: absolute;
+            width: 400px;
+            height: 200px;
+            background-color: #C0C0C0;
+            border: 2px solid #000;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px;
+        }
+        
+        #music-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        #music-list li {
+            margin: 5px 0;
+        }
+        
+        #icons {
+            position: absolute;
+            animation: moveIcons 10s infinite;
+        }
+        
+        @keyframes moveIcons {
+            0% {
+                transform: translate(0, 0);
+            }
+            50% {
+                transform: translate(100px, 100px);
+            }
+            100% {
+                transform: translate(0, 0);
+            }
+        }
+    </style>
+</head
