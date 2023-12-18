@@ -1,0 +1,20 @@
+</style>
+</head>
+<body>
+    <div id="player">
+        <h1>Windows 98 Music Player</h1>
+        <audio controls>
+            <source src="your-music.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <h2>Upload Music</h2>
+        <input type="file" accept=".mp3" id="music-upload">
+        <ul id="music-list">
+            <!-- List of uploaded songs will appear here -->
+        </ul>
+    </div>
+    
+    <div id="icons">
+        <!-- Icons (e.g., moving icons) go here -->
+    </div>
+    
